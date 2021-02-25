@@ -11,12 +11,20 @@
         android:layout_height="wrap_content"
         android:theme="@style/Theme.AppTeste.AppBarOverlay">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Texto de teste"
+            android:layout_gravity="center_vertical"/>
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/qualquerCoisa"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.AppTeste.PopupOverlay" />
+
+
 
     </com.google.android.material.appbar.AppBarLayout>
 
